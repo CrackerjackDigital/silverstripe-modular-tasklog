@@ -1,0 +1,21 @@
+---
+Name: modular-logs-config
+---
+Modular\Models\Log:
+  has_many:
+    LogEntries: 'Modular\Models\LogEntry'
+  extensions:
+    - Modular\Fields\Title
+    - Modular\Fields\Description
+    - Modular\Fields\Timestamp
+    - Modular\Fields\Outcome
+Modular\Models\LogEntry:
+  has_one:
+    Log: 'Modular\Models\Log'
+  extensions:
+    - Modular\Fields\Title
+    - Modular\Fields\Description
+    - Modular\Fields\Timestamp
+    - Modular\Fields\Outcome
+    - Modular\Fields\ModelRef
+
