@@ -1,7 +1,7 @@
 {
-	"name": "crackerjackdigital/silverstripe-modular-logs",
+	"name": "crackerjackdigital/silverstripe-modular-tasklog",
 	"type": "silverstripe-module",
-	"description": "Log and log entries models",
+	"description": "Task logs for modular",
 	"homepage": "http://github.com/crackerjackdigital",
 	"license": "BSD-3-Clause",
 	"keywords": [
@@ -28,7 +28,7 @@
 		}
 	],
 	"extra": {
-		"installer-name": "modular-logs"
+		"installer-name": "modular-tasklog"
 	},
 	"minimum-stability": "dev"
 }

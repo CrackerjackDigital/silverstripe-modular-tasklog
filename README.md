@@ -1,5 +1,3 @@
-# Modular Logs
+# modular-tasklog log tasks and events to the database
 
-Log and LogEntries models and tools
-
-Work in Progress atm, may not even work
+Keep re-inventing the wheel here so here's an implementation to re-use
